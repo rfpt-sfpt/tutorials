@@ -33,7 +33,7 @@ Depnding on the file format of your article, you should place it in their corres
 
 In the following figure, the folders are marked with red, green and blue rectangles, respectively:
 
-![]({{ site.baseurl }}/images/github-folder-structure-marked_thumb.png "Place your article in the appropriate folder (_notebook, _post, or _word).")
+![]({{ site.baseurl }}/images/github-folder-structure-marked_thumb.png "Place your article in the corresponding folder (notebook, post, or word).")
 
 # Write or upload and submit
 
@@ -49,7 +49,7 @@ You're now ready to create or upload your article. Below find the instructions o
 
 The above instructions are summarised in the figure below:
 
-![]({{ site.baseurl }}/images/tutorial_write_blog.png "tutorial in picture")
+![]({{ site.baseurl }}/images/tutorial_write_blog.png "Tutorial in *picture*")
 
 ## Notebook article
 
