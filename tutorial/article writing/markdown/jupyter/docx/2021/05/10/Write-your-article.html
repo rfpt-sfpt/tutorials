@@ -94,7 +94,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      3 min read
     
 </span></p>
 
@@ -134,17 +134,23 @@ window.onload = wrap_img;
 <ul>
 <li class="toc-entry toc-h2"><a href="#markdown-article">Markdown article</a></li>
 <li class="toc-entry toc-h2"><a href="#notebook-article">Notebook article</a></li>
+<li class="toc-entry toc-h2"><a href="#word-article">Word article</a></li>
 </ul>
 </li>
 <li class="toc-entry toc-h1"><a href="#other-references">Other references</a></li>
 </ul><h1 id="introduction">
 <a class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
-<p>There are a number of ways to publish a blog article. Here, we will present how to upload an article using the github web-interface. If you’re more familiar with github, you may as well clone the repository locally, modify it as it fits, and push to the master branch via a pull request.</p>
+<p>All RFPT blogs are created using using the <a href="https://pages.github.com/">Github Pages</a><sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> and to modify their content one needs a github account. There are at least two ways to publish a blog article. Here, we will present how to upload an article using the github web-interface. If you’re more familiar with github, you may as well clone the repository locally, modify it as it fits, and push to the master branch via a pull request.</p>
 
 <h2 id="choose-your-blog-category">
 <a class="anchor" href="#choose-your-blog-category" aria-hidden="true"><span class="octicon octicon-link"></span></a>Choose your blog category</h2>
 
-<p>The RFPT has several blogs. If you want to share information about a scientific event (seminar, conference, etc.), submit your article to the <a href="https://rfpt-sfpt.github.io/education">Education blog</a>. If you want to write an article on your MSc or PhD thesis, choose the <a href="https://rfpt-sfpt.github.io/blog">Research blog</a>. Finally, if you want to publish a tutorial, go to the <a href="https://rfpt-sfpt.github.io/tutorials">Tutorials blog</a>.</p>
+<p>The RFPT has several blogs. If you want to share information about a scientific or educational event (seminar, conference, etc.), submit your article to the <a href="https://rfpt-sfpt.github.io/education">Education blog</a>. If you want to write an article on your MSc or PhD thesis, choose the <a href="https://rfpt-sfpt.github.io/blog">Research blog</a>. Finally, if you want to publish a tutorial, go with the <a href="https://rfpt-sfpt.github.io/tutorials">Tutorials blog</a>. The corresponding github adresses, i.e., where to actual commits are submitted, are as follows:</p>
+<ul>
+  <li><a href="https://github.com/rfpt-sfpt/tutorials">Github Tutorials</a></li>
+  <li><a href="https://github.com/rfpt-sfpt/education">Github Education</a></li>
+  <li><a href="https://github.com/rfpt-sfpt/blog">Github Research</a></li>
+</ul>
 
 <h2 id="file-formats">
 <a class="anchor" href="#file-formats" aria-hidden="true"><span class="octicon octicon-link"></span></a>File formats</h2>
@@ -186,6 +192,7 @@ window.onload = wrap_img;
 <p>You’re now ready to create or upload your article. Below find the instructions on how to succesfully submit your post.</p>
 
 <ol>
+  <li>Go to the <a href="https://rfpt-sfpt.github.io/tutorials/tutorial/article%20writing/markdown/jupyter/docx/2021/05/10/Write-your-article.html#choose-your-blog-category">gihub address</a> corresponding to your blog</li>
   <li>Upload an existing file or create a new one</li>
   <li>Include <code class="language-plaintext highlighter-rouge">front matter</code> to describe the metadata of the article such as title, description, tags, image. You’re highly encouraged to include an image, which   will be displayed on the main page, next to your article. Do not forget to upload the image file inside the <code class="language-plaintext highlighter-rouge">images</code> directory prior to submitting your post.</li>
   <li>Write the content of your article using the <a href="https://guides.github.com/features/mastering-markdown/">markdown language</a>
@@ -202,6 +209,11 @@ window.onload = wrap_img;
 
 <p>If you created a <code class="language-plaintext highlighter-rouge">ipnyb</code> notebook file, <a href="https://github.com/fastai/fastpages">fastpages</a> allow to automatically convert it to its blog-like version. It’s sufficient to upload your notebook in the <code class="language-plaintext highlighter-rouge">_notebook</code> folder, and follow the <code class="language-plaintext highlighter-rouge">YYY-MM-DD-*.ipynb</code> naming convention. Please refer to <a href="https://rfpt-sfpt.github.io/tutorials/jupyter/2020/02/20/test.html">this examplar post</a> for more information.</p>
 
+<h2 id="word-article">
+<a class="anchor" href="#word-article" aria-hidden="true"><span class="octicon octicon-link"></span></a>Word article</h2>
+
+<p>You can publish an article using the Word docx file, however, it does not seem to be the recommended way of interacting with the fastpages blog. Follow <a href="https://fastpages.fast.ai/2020/01/01/Microsoft-Word-Example-Post.html">this tutorial</a> for more information.</p>
+
 <h1 id="other-references">
 <a class="anchor" href="#other-references" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other references</h1>
 
@@ -216,6 +228,14 @@ window.onload = wrap_img;
     <p><a href="https://github.com/fastai/fastpages#writing-blog-posts-with-microsoft-word">Writing Blog Posts With Word</a></p>
   </li>
 </ul>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The blog content was generated with the help of the ingenious <a href="https://github.com/fastai/fastpages">fastpages</a> blogging platform. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
