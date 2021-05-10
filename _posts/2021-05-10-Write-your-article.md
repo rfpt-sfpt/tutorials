@@ -33,7 +33,7 @@ Depnding on the file format of your article, you should place it in their corres
 
 In the following figure, the folders are marked with red, green and blue rectangles, respectively:
 
-![]({{ site.baseurl }}/images/github-folder-structure-marked.png "Place your article in the appropriate folder (_notebook, _post, or _word).")
+![]({{ site.baseurl }}/images/github-folder-structure-marked_thumb.png "Place your article in the appropriate folder (_notebook, _post, or _word).")
 
 # Markdown article
 > Please take a look at [this post](https://rfpt-sfpt.github.io/education/markdown/2020/01/14/test-markdown-post.html) to learn some basic markdown functions such as defining a list/table, or embedding an image or even a piece of code in your post! 
