@@ -45,9 +45,15 @@ In the following figure, the folders are marked with red, green and blue rectang
 
 You're now ready to create or upload your article. Below find the instructions on how to succesfully submit your post.
 
-0. Go to the [gihub address](https://rfpt-sfpt.github.io/tutorials/tutorial/article%20writing/markdown/jupyter/docx/2021/05/10/Write-your-article.html#choose-your-blog-category) corresponding to your blog
-1. Upload an existing file or create a new one
-2. Include `front matter` to describe the metadata of the article such as title, description, tags, image. You're highly encouraged to include an image, which   will be displayed on the main page, next to your article. Do not forget to upload the image file inside the `images` directory prior to submitting your post. 
+
+1. Go to the github address corresponding to your blog 
+```yaml
+   Tutorials : https://github.com/rfpt-sfpt/tutorials
+   Education : https://github.com/rfpt-sfpt/education
+   Research  : https://github.com/rfpt-sfpt/blog
+```
+2. Upload an existing file or create a new one
+3. Include `front matter` to describe the metadata of the article such as title, description, tags, image. You're highly encouraged to include an image, which   will be displayed on the main page, next to your article. Do not forget to upload the image file inside the `images` directory prior to submitting your post. 
 4. Write the content of your article using the [markdown language](https://guides.github.com/features/mastering-markdown/) 
 5. Submit the article with the `Commit changes` button. This will create the so-called `pull request` that one of RFPT moderators will need to confirm and merge with the blog content.
 
