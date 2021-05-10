@@ -10,11 +10,14 @@ description: "A tutorial on notebook, markdown, Word doc article writing"
 title: "How to publish a blog article"
 ---
 # Introduction
-There are a number of ways to publish a blog article. Here, we will present how to upload an article using the github web-interface. If you're more familiar with github, you may as well clone the repository locally, modify it as it fits, and push to the master branch via a pull request.
+All RFPT blogs are created using using the [Github Pages](https://pages.github.com/)[^1] and to modify their content one needs a github account. There are at least two ways to publish a blog article. Here, we will present how to upload an article using the github web-interface. If you're more familiar with github, you may as well clone the repository locally, modify it as it fits, and push to the master branch via a pull request.
 
 ## Choose your blog category
 
-The RFPT has several blogs. If you want to share information about a scientific event (seminar, conference, etc.), submit your article to the [Education blog](https://rfpt-sfpt.github.io/education). If you want to write an article on your MSc or PhD thesis, choose the [Research blog](https://rfpt-sfpt.github.io/blog). Finally, if you want to publish a tutorial, go to the [Tutorials blog](https://rfpt-sfpt.github.io/tutorials).
+The RFPT has several blogs. If you want to share information about a scientific or educational event (seminar, conference, etc.), submit your article to the [Education blog](https://rfpt-sfpt.github.io/education). If you want to write an article on your MSc or PhD thesis, choose the [Research blog](https://rfpt-sfpt.github.io/blog). Finally, if you want to publish a tutorial, go with the [Tutorials blog](https://rfpt-sfpt.github.io/tutorials). The corresponding github adresses, i.e., where to actual commits are submitted, are as follows:
+* [Github Tutorials](https://github.com/rfpt-sfpt/tutorials)
+* [Github Education](https://github.com/rfpt-sfpt/education)
+* [Github Research](https://github.com/rfpt-sfpt/blog)
 
 ## File formats
 An article can be submitted as a jupyter notebook, a markdown file or a Word file. Whatever the input file, a strict naming convention must be followed and it goes like this:
@@ -42,6 +45,7 @@ In the following figure, the folders are marked with red, green and blue rectang
 
 You're now ready to create or upload your article. Below find the instructions on how to succesfully submit your post.
 
+0. Go to the [gihub address](https://rfpt-sfpt.github.io/tutorials/tutorial/article%20writing/markdown/jupyter/docx/2021/05/10/Write-your-article.html#choose-your-blog-category) corresponding to your blog
 1. Upload an existing file or create a new one
 2. Include `front matter` to describe the metadata of the article such as title, description, tags, image. You're highly encouraged to include an image, which   will be displayed on the main page, next to your article. Do not forget to upload the image file inside the `images` directory prior to submitting your post. 
 4. Write the content of your article using the [markdown language](https://guides.github.com/features/mastering-markdown/) 
@@ -55,6 +59,10 @@ The above instructions are summarised in the figure below:
 
 If you created a `ipnyb` notebook file, [fastpages](https://github.com/fastai/fastpages) allow to automatically convert it to its blog-like version. It's sufficient to upload your notebook in the `_notebook` folder, and follow the `YYY-MM-DD-*.ipynb` naming convention. Please refer to [this examplar post](https://rfpt-sfpt.github.io/tutorials/jupyter/2020/02/20/test.html) for more information.
 
+## Word article
+
+You can publish an article using the Word docx file, however, it does not seem to be the recommended way of interacting with the fastpages blog. Follow [this tutorial](https://fastpages.fast.ai/2020/01/01/Microsoft-Word-Example-Post.html) for more information.
+
 # Other references
 
 - [Writing Blogs With Jupyter](https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter)
@@ -62,3 +70,5 @@ If you created a `ipnyb` notebook file, [fastpages](https://github.com/fastai/fa
 - [Writing Blogs With Markdown](https://github.com/fastai/fastpages#writing-blog-posts-with-markdown) 
 
 - [Writing Blog Posts With Word](https://github.com/fastai/fastpages#writing-blog-posts-with-microsoft-word)
+
+[^1]: The blog content was generated with the help of the ingenious [fastpages](https://github.com/fastai/fastpages) blogging platform.
