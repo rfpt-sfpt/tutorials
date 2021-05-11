@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Ewelina Rupnik
 image: images/diagram.png
 toc: true
 comments: true
