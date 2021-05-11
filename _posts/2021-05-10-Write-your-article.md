@@ -60,7 +60,7 @@ You're now ready to create or upload your article. Below find the instructions o
 
 The above instructions are summarised in the figure below:
 
-![]({{ site.baseurl }}/images/tutorial_write_blog.png "Tutorial in *picture*")
+![]({{ site.baseurl }}/images/tutorial_write_blog.png "The instructions in **picture**")
 
 ## Notebook article
 
