@@ -54,7 +54,7 @@ You're now ready to create or upload your article. Below find the instructions o
    Research  : https://github.com/rfpt-sfpt/blog
 ```
 2. Upload an existing file or create a new one
-3. Include `front matter` to describe the metadata of the article such as title, description, tags, image. You're highly encouraged to include an image, which   will be displayed on the main page, next to your article. Do not forget to upload the image file inside the `images` directory prior to submitting your post. 
+3. Include `front matter` to describe the metadata of the article such as author, title, description, tags, image. You're highly encouraged to include an image, which   will be displayed on the main page, next to your article. Do not forget to upload the image file inside the `images` directory prior to submitting your post. 
 4. Write the content of your article using the [markdown language](https://guides.github.com/features/mastering-markdown/) 
 5. Submit the article with the `Commit changes` button. This will create the so-called `pull request` that one of RFPT moderators will need to confirm and merge with the blog content.
 
