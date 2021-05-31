@@ -11,7 +11,7 @@ description: "A tutorial on notebook, markdown, Word doc article writing"
 title: "How to publish a blog article"
 ---
 # Introduction
-All RFPT blogs are created using using the [Github Pages](https://pages.github.com/)[^1] and to modify their content one needs a github account. There are at least two ways to publish a blog article. Here, we will present how to upload an article using the github web-interface. If you're more familiar with github, you may as well clone the repository locally, modify it as it fits, and push to the master branch via a pull request.
+All RFPT blogs are created using the [Github Pages](https://pages.github.com/)[^1] and to modify their content one needs a github account. There are at least two ways to publish a blog article. Here, we will present how to upload an article using the github web-interface. If you're more familiar with github, you may as well clone the repository locally, modify it as it fits, and push to the master branch via a pull request.
 
 ## Choose your blog category
 
