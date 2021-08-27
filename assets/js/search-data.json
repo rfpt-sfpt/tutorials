@@ -27,9 +27,12 @@
 
   
   
+  
 
   
-      ,"page1": {
+
+  
+      ,"page2": {
           "title": "About",
           "content": "This is the Tutorial blog of the RFPT - an open-access french scientific journal for Photogrammetry and Remote Sensing. For more information go to our website. . The website is powered by fastpages. .",
           "url": "https://rfpt-sfpt.github.io/tutorials/about/",
@@ -61,7 +64,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://rfpt-sfpt.github.io/tutorials/robots.txt",
